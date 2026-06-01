@@ -1,0 +1,30 @@
+{
+  "sim_seed": 744595490,
+  "config": "BA-random",
+  "methods": {
+    "Adaptive TD": {
+      "pc": 0.469681,
+      "anc": 0.661661,
+      "success": true,
+      "n_removed": 457
+    },
+    "Adaptive TIA": {
+      "pc": 0.357657,
+      "anc": 0.695523,
+      "success": true,
+      "n_removed": 348
+    },
+    "Adaptive Katz": {
+      "pc": 0.389517,
+      "anc": 0.725573,
+      "success": true,
+      "n_removed": 379
+    },
+    "GNN-RL": {
+      "pc": 0.16444,
+      "anc": 0.900378,
+      "success": true,
+      "n_removed": 160
+    }
+  }
+}
