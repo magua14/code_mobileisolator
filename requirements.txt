@@ -1,0 +1,39 @@
+# Python 3.10 or newer is required.
+#
+# torch and torch-geometric are listed below for convenience, but they
+# are sensitive to the CUDA version of the host. If `pip install -r
+# requirements.txt` fails on these two lines, install them manually
+# following the official guides:
+#
+#   PyTorch:         https://pytorch.org/get-started/locally/
+#   torch-geometric: https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+#
+# Then install the rest with:
+#   pip install -r requirements.txt --no-deps   (or skip the two lines below)
+
+# ---- Core scientific stack ----
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# ---- Plotting ----
+matplotlib>=3.7
+seaborn>=0.12
+
+# ---- Graphs ----
+networkx>=3.0
+
+# ---- Progress bars ----
+tqdm>=4.65
+
+# ---- Reinforcement-learning environment (used by train/) ----
+gymnasium>=0.29
+
+# ---- Deep learning (CUDA-dependent; see the note above) ----
+torch>=2.0
+torch-geometric>=2.4
+
+# ---- Optional: training-curve visualisation ----
+# Required only to view the TensorBoard event logs shipped with the
+# released model weights; not needed for inference or figure rendering.
+tensorboard>=2.13
